@@ -13,6 +13,11 @@
 
         <h2>Welcome to My Learning Journey</h2>
 
+        <p>
+            This webpage presents my learning progress, practical HTML tasks,
+            academic projects, and educational background.
+        </p>
+
     </header>
 
     <hr>
@@ -45,13 +50,13 @@
             </p>
 
             <p>
-                <a href="../Ep4-Bonus Task/UL_and_OL.html">
+                <a href="../Ep4-Bonus Task/UL and OL.html">
                     <button>UL and OL</button>
                 </a>
             </p>
 
             <p>
-                <a href="../Ep4-Task/UL_and_OL_2.html">
+                <a href="../Ep4-Task/UL and OL 2.html">
                     <button>UL and OL 2</button>
                 </a>
             </p>
@@ -69,19 +74,19 @@
             </p>
 
             <p>
-                <a href="../Ep6-Task/Employee_Table.html">
+                <a href="../Ep6-Task/Employee Table.html">
                     <button>Employee Table</button>
                 </a>
             </p>
 
             <p>
-                <a href="../Ep6-Task/Student_Detail.html">
+                <a href="../Ep6-Task/Student Detail.html">
                     <button>Student Details</button>
                 </a>
             </p>
 
             <p>
-                <a href="../Ep6-Task/Student_Mark_List.html">
+                <a href="../Ep6-Task/Student Mark List.html">
                     <button>Student Mark List</button>
                 </a>
             </p>
@@ -153,23 +158,110 @@
 
         </table>
 
+        <hr>
+
+        <h2>HTML Learning Feedback</h2>
+
+        <p>
+            Your feedback will help me understand my learning progress
+            and improve my HTML skills.
+        </p>
+
+        <form action="thankyou.html" method="get">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <br><br>
+
+            <label for="task">Which HTML task did you like?</label>
+
+            <select id="task" name="task">
+
+                <option>About Me</option>
+                <option>UL and OL</option>
+                <option>UL and OL 2</option>
+                <option>Audio</option>
+                <option>Video</option>
+                <option>Employee Table</option>
+                <option>Student Details</option>
+                <option>Student Mark List</option>
+                <option>Navigation</option>
+
+            </select>
+
+            <br><br>
+
+            <p>How would you rate my HTML learning?</p>
+
+            <input type="radio" id="excellent" name="rating" value="Excellent">
+            <label for="excellent">Excellent</label>
+
+            <input type="radio" id="good" name="rating" value="Good">
+            <label for="good">Good</label>
+
+            <input type="radio" id="average" name="rating" value="Average">
+            <label for="average">Average</label>
+
+            <br><br>
+
+            <label for="topic">
+                Which HTML topic did you find interesting?
+            </label>
+
+            <input type="text" id="topic" name="topic">
+
+            <br><br>
+
+            <label for="feedback">Feedback:</label>
+
+            <br>
+
+            <textarea id="feedback"
+                      name="feedback"
+                      rows="5"
+                      cols="40"></textarea>
+
+            <br><br>
+
+            <input type="checkbox" id="agree" name="agree" required>
+
+            <label for="agree">
+                I agree to submit this feedback.
+            </label>
+
+            <br><br>
+
+            <button type="submit">Submit Feedback</button>
+
+            <button type="reset">Reset</button>
+
+        </form>
+
     </main>
 
     <hr>
 
     <footer>
 
-        <h2>Contact</h2>
+        <h2>Contact Information</h2>
 
         <p>
 
+            <strong>Phone:</strong>
             <a href="tel:3419478990">
                 3419478990
             </a>
-            <h3>GitHub Profile</h3>
 
+            &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
 
-            <a href="https://github.com" target="_blank">
+            <strong>GitHub:</strong>
+            <a href="https://github.com/indhujaM-BE" target="_blank">
                 Visit My GitHub Profile
             </a>
 
@@ -177,6 +269,9 @@
 
         <hr>
 
+        <p>
+            HTML Learning Journey completed successfully.
+        </p>
 
     </footer>
 
